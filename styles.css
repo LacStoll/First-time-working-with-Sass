@@ -1,0 +1,59 @@
+body {
+  background-image: url("Background.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  color: black;
+}
+
+body nav {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 0px 2px 5px grey;
+          box-shadow: 0px 2px 5px grey;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+body footer {
+  background-color: black;
+  color: white;
+  padding: 7px 20px;
+  margin: 10px -20px 0 -20px;
+}
+
+.socialmedia {
+  position: fixed;
+  top: 12px;
+  right: 25px;
+  z-index: 100;
+}
+
+.socialmedia .fa-brands {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 5px;
+}
+
+table, td, th {
+  border: 2px solid Black;
+  border-radius: 0px;
+  margin: auto;
+}
+
+th, td {
+  padding: 50px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #707070;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+/*# sourceMappingURL=styles.css.map */

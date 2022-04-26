@@ -1,0 +1,52 @@
+@import 'base';
+body {
+    background-image: url("Background.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    color:black;
+    nav {
+        background-color: $background-color;
+        color: $color;
+        padding: 10px 30px;
+        margin-bottom: 25px;
+        box-shadow: 0px 2px 5px grey;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+    }
+    footer {
+        background-color: $background-color;
+        color: $color;
+        padding: 7px 20px;
+        margin: 10px -20px 0 -20px
+    }
+}
+.socialmedia {
+    position: fixed;
+    top: 12px;
+    right: 25px;
+    z-index: 100;
+    .fa-brands {
+        font-size: 2em;
+        color: rgba(255,255,255, 0.5);
+        padding-right: 5px;  
+    }
+}
+table, td, th{
+    border: 2px solid Black;
+    border-radius:0px;
+    margin: auto;
+}
+th, td {
+    padding: 50px;
+    text-align: center;
+  
+}
+tr:nth-child(even)
+{
+    background-color: #707070;
+}
+tr:nth-child(odd)
+{
+    background-color: lightgray;
+}
